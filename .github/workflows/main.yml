@@ -1,0 +1,24 @@
+name: Manual Telegram Bot Run
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  run-math-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies (Yahan library install hogi)
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib pyTelegramBotAPI
+
+      - name: Run Python Script
+        run: python bot_test.py
