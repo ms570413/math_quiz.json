@@ -57,7 +57,7 @@ def send_quiz():
             options=["Option A", "Option B", "Option C", "Option D"],
             type="quiz",
             correct_option_id=correct_index,
-            is_anonymous=False
+            is_anonymous=True
         )
         
         # Image bhejkar delete kar dena taaki kachra jama na ho
