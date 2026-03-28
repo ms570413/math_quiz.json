@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import telebot
 import os
 
-# Apna Telegram Bot Token aur Chat ID yahan daalein
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = "-1003603338486" 
+# Ab hum direct token nahi likhenge, GitHub Secrets se mangwayenge
+TOKEN = os.environ.get('BOT_TOKEN')
+CHAT_ID = os.environ.get('CHAT_ID')
 
 bot = telebot.TeleBot(TOKEN)
 
