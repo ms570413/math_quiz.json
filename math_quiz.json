@@ -1,0 +1,26 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 + 5x + 6 = 0$, then find the value of $\\alpha^2 + \\beta^2$.",
+      "options": [
+        "13",
+        "17",
+        "19",
+        "25"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": 2,
+      "question": "Find the value of the integral: $\\int \\frac{1}{x^2 + 2x + 5} \\, dx$",
+      "options": [
+        "$\\frac{1}{2} \\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$",
+        "$\\frac{1}{2} \\tan^{-1}\\left(\\frac{x-1}{2}\\right) + C$",
+        "$\\tan^{-1}\\left(\\frac{x+1}{2}\\right) + C$",
+        "$\\frac{1}{2} \\tan^{-1}(x+1) + C$"
+      ],
+      "correct_option": "A"
+    }
+  ]
+}
